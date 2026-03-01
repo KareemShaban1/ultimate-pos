@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Schema;
 
 class System extends Model
 {
@@ -35,6 +36,10 @@ class System extends Model
      */
     public static function getProperty($key)
     {
+        if (! Schema::hasTable('system')) {
+            return null;
+        }
+
         $row = System::where('key', $key)
                 ->first();
 
@@ -53,6 +58,10 @@ class System extends Model
      */
     public static function getProperties($keys, $pluck = false)
     {
+        if (! Schema::hasTable('system')) {
+            return [];
+        }
+
         if ($pluck == true) {
             return System::whereIn('key', $keys)
                 ->pluck('value', 'key');
