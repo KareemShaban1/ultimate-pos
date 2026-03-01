@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 
 use Spatie\Activitylog\Traits\LogsActivity;
+use Spatie\Activitylog\LogOptions;
 
 class EssentialsLeave extends Model
 {
@@ -37,5 +38,10 @@ class EssentialsLeave extends Model
     public function changed_by_user()
     {
         return $this->belongsTo(\App\User::class, 'changed_by');
+    }
+
+    public function getActivitylogOptions(): LogOptions
+    {
+        return LogOptions::defaults();
     }
 }
