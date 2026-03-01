@@ -6,7 +6,7 @@ use App\Models\Barcode;
 use App\Models\Brand;
 use App\Models\Business;
 use App\BusinessLocation;
-use App\Models\Contact;
+use App\Contact;
 use App\Models\CustomerGroup;
 use App\Models\Media;
 use App\Models\NotificationTemplate;

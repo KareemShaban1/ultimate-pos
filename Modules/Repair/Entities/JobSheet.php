@@ -36,7 +36,7 @@ class JobSheet extends Model
      */
     public function customer()
     {
-        return $this->belongsTo('App\Models\Contact', 'contact_id');
+        return $this->belongsTo('App\Contact', 'contact_id');
     }
     
     /**

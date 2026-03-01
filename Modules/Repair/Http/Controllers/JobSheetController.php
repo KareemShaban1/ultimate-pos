@@ -5,7 +5,7 @@ namespace Modules\Repair\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use App\Models\Contact;
+use App\Contact;
 use App\Models\Brand;
 use App\BusinessLocation;
 use App\Models\Business;
