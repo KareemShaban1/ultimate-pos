@@ -9,7 +9,7 @@ use App\Models\Contact;
 use App\Models\Brand;
 use App\Models\BusinessLocation;
 use App\Models\Business;
-use App\\Category;
+use App\Category;
 use Modules\Repair\Entities\DeviceModel;
 use Modules\Repair\Entities\RepairStatus;
 use Modules\Repair\Utils\RepairUtil;

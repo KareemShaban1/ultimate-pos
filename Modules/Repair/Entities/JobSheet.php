@@ -68,7 +68,7 @@ class JobSheet extends Model
      */
     public function Device()
     {
-        return $this->belongsTo('App\\Category', 'device_id');
+        return $this->belongsTo('App\Category', 'device_id');
     }
 
     /**

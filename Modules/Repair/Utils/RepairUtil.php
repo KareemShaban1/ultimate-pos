@@ -13,7 +13,7 @@ use Spatie\Activitylog\Models\Activity;
 use App\Models\Transaction;
 use App\Models\Brand;
 use Modules\Repair\Entities\DeviceModel;
-use App\\Category;
+use App\Category;
 use Modules\Repair\Entities\JobSheet;
 use Modules\Repair\Notifications\RepairStatusUpdated;
 

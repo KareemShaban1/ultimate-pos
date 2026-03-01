@@ -5,7 +5,7 @@ namespace Modules\Repair\Http\Controllers;
 use App\Models\Barcode;
 use App\Models\Brand;
 use App\Models\Business;
-use App\\Category;
+use App\Category;
 use App\Utils\ModuleUtil;
 use App\Models\Variation;
 use Illuminate\Http\Request;

@@ -12,7 +12,7 @@ use Illuminate\Routing\Controller;
 use Modules\Essentials\Notifications\PayrollNotification;
 use Modules\Essentials\Utils\EssentialsUtil;
 use Yajra\DataTables\Facades\DataTables;
-use App\\Category;
+use App\Category;
 use App\Utils\Util;
 use Modules\Essentials\Entities\EssentialsLeave;
 use App\Utils\TransactionUtil;
