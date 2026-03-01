@@ -4,7 +4,7 @@ namespace Modules\Repair\Http\Controllers;
 
 use App\Models\Brand;
 use App\Category;
-use App\Models\Transaction;
+use App\Transaction;
 use App\Utils\ModuleUtil;
 use App\Models\Warranty;
 use DB;

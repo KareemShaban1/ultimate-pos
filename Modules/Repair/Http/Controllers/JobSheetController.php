@@ -7,7 +7,7 @@ use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use App\Models\Contact;
 use App\Models\Brand;
-use App\Models\BusinessLocation;
+use App\BusinessLocation;
 use App\Models\Business;
 use App\Category;
 use Modules\Repair\Entities\DeviceModel;

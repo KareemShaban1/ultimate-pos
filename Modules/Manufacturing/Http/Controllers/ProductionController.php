@@ -2,8 +2,8 @@
 
 namespace Modules\Manufacturing\Http\Controllers;
 
-use App\Models\BusinessLocation;
-use App\Models\Transaction;
+use App\BusinessLocation;
+use App\Transaction;
 use App\Utils\BusinessUtil;
 use App\Utils\ModuleUtil;
 use App\Utils\ProductUtil;

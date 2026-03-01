@@ -2,7 +2,7 @@
 
 namespace Modules\Manufacturing\Http\Controllers;
 
-use App\Models\Transaction;
+use App\Transaction;
 use App\Utils\ModuleUtil;
 use DB;
 use Illuminate\Routing\Controller;

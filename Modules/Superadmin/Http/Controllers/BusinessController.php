@@ -4,7 +4,7 @@ namespace Modules\Superadmin\Http\Controllers;
 
 use App\Business;
 use App\Models\Product;
-use App\Models\Transaction;
+use App\Transaction;
 use App\User;
 use App\Utils\BusinessUtil;
 use App\Utils\ModuleUtil;

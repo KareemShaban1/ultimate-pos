@@ -92,7 +92,7 @@ class JobSheet extends Model
      */
     public function businessLocation()
     {
-        return $this->belongsTo('App\Models\BusinessLocation', 'location_id');
+        return $this->belongsTo('App\BusinessLocation', 'location_id');
     }
 
     /**
@@ -100,7 +100,7 @@ class JobSheet extends Model
      */
     public function invoices()
     {
-        return $this->hasMany('App\Models\Transaction', 'repair_job_sheet_id');
+        return $this->hasMany('App\Transaction', 'repair_job_sheet_id');
     }
 
     public function media()

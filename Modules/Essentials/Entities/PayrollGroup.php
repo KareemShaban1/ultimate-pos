@@ -25,6 +25,6 @@ class PayrollGroup extends Model
      */
     public function payrollGroupTransactions()
     {
-        return $this->belongsToMany('App\Models\Transaction', 'essentials_payroll_group_transactions', 'payroll_group_id', 'transaction_id');
+        return $this->belongsToMany('App\Transaction', 'essentials_payroll_group_transactions', 'payroll_group_id', 'transaction_id');
     }
 }

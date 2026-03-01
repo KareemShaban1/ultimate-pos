@@ -10,7 +10,7 @@ use App\Charts\CommonChart;
 use App\Utils\Util;
 use Modules\Repair\Entities\RepairStatus;
 use Spatie\Activitylog\Models\Activity;
-use App\Models\Transaction;
+use App\Transaction;
 use App\Models\Brand;
 use Modules\Repair\Entities\DeviceModel;
 use App\Category;

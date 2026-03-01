@@ -2,7 +2,7 @@
 
 namespace Modules\Essentials\Http\Controllers;
 
-use App\Models\Transaction;
+use App\Transaction;
 use App\User;
 use App\Utils\ModuleUtil;
 use DB;

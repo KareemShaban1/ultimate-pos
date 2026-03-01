@@ -2,7 +2,7 @@
 namespace Modules\Manufacturing\Utils;
 
 use App\Models\Business;
-use App\Models\Transaction;
+use App\Transaction;
 use App\Models\TransactionSellLinesPurchaseLines;
 use App\Utils\Util;
 use App\Models\Variation;
