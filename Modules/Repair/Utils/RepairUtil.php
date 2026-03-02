@@ -3,7 +3,7 @@
 namespace Modules\Repair\Utils;
 
 use \Notification;
-use App\Models\Business;
+use App\Business;
 use DB;
 use App\Models\NotificationTemplate;
 use App\Charts\CommonChart;

@@ -2,7 +2,7 @@
 
 namespace Modules\Essentials\Http\Controllers;
 
-use App\Models\Business;
+use App\Business;
 use App\Utils\ModuleUtil;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

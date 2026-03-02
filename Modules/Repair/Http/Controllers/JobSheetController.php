@@ -8,7 +8,7 @@ use Illuminate\Routing\Controller;
 use App\Contact;
 use App\Models\Brand;
 use App\BusinessLocation;
-use App\Models\Business;
+use App\Business;
 use App\Category;
 use Modules\Repair\Entities\DeviceModel;
 use Modules\Repair\Entities\RepairStatus;

@@ -4,7 +4,7 @@ namespace Modules\Repair\Http\Controllers;
 
 use App\Models\Barcode;
 use App\Models\Brand;
-use App\Models\Business;
+use App\Business;
 use App\BusinessLocation;
 use App\Contact;
 use App\Models\CustomerGroup;
