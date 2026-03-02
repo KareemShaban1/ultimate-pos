@@ -11,7 +11,7 @@ use App\Utils\Util;
 use Modules\Repair\Entities\RepairStatus;
 use Spatie\Activitylog\Models\Activity;
 use App\Transaction;
-use App\Models\Brand;
+use App\Brand;
 use Modules\Repair\Entities\DeviceModel;
 use App\Category;
 use Modules\Repair\Entities\JobSheet;

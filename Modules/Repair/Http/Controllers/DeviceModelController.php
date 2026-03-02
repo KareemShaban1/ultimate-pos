@@ -2,7 +2,7 @@
 
 namespace Modules\Repair\Http\Controllers;
 
-use App\Models\Brand;
+use App\Brand;
 use App\Category;
 use App\Transaction;
 use App\Utils\ModuleUtil;
