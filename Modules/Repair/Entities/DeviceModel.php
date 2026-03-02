@@ -51,7 +51,7 @@ class DeviceModel extends Model
      */
     public function Brand()
     {
-        return $this->belongsTo('App\Brand', 'brand_id');
+        return $this->belongsTo('App\Brands', 'brand_id');
     }
 
     public static function forDropdown($business_id)

@@ -76,7 +76,7 @@ class JobSheet extends Model
      */
     public function Brand()
     {
-        return $this->belongsTo('App\Brand', 'brand_id');
+        return $this->belongsTo('App\Brands', 'brand_id');
     }
 
     /**

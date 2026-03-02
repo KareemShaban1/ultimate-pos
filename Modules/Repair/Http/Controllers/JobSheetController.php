@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use App\Contact;
-use App\Brand;
+use App\Brands;
 use App\BusinessLocation;
 use App\Business;
 use App\Category;

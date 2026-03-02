@@ -3,7 +3,7 @@
 namespace Modules\Repair\Http\Controllers;
 
 use App\Models\Barcode;
-use App\Brand;
+use App\Brands;
 use App\Business;
 use App\BusinessLocation;
 use App\Contact;
