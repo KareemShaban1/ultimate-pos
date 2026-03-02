@@ -19,7 +19,7 @@ use App\Utils\CashRegisterUtil;
 use Yajra\DataTables\Facades\DataTables;
 use DB;
 use App\Utils\ModuleUtil;
-use App\Models\CustomerGroup;
+use App\CustomerGroup;
 use App\Utils\ContactUtil;
 use App\Utils\ProductUtil;
 use App\Models\Media;

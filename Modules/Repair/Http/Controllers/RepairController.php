@@ -7,7 +7,7 @@ use App\Brands;
 use App\Business;
 use App\BusinessLocation;
 use App\Contact;
-use App\Models\CustomerGroup;
+use App\CustomerGroup;
 use App\Models\Media;
 use App\Models\NotificationTemplate;
 use App\Models\SellingPriceGroup;
