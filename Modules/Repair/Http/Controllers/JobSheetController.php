@@ -311,7 +311,7 @@ class JobSheetController extends Controller
 
         $repair_statuses = RepairStatus::getRepairSatuses($business_id);
         $device_models = DeviceModel::forDropdown($business_id);
-        $brands = Brand::forDropdown($business_id, false, true);
+        $brands = Brands::forDropdown($business_id, false, true);
         $devices = Category::forDropdown($business_id, 'device');
         $repair_settings = $this->repairUtil->getRepairSettings($business_id);
         $business_locations = BusinessLocation::forDropdown($business_id);
@@ -488,7 +488,7 @@ class JobSheetController extends Controller
 
         $repair_statuses = RepairStatus::getRepairSatuses($business_id);
         $device_models = DeviceModel::forDropdown($business_id);
-        $brands = Brand::forDropdown($business_id, false, true);
+        $brands = Brands::forDropdown($business_id, false, true);
         $devices = Category::forDropdown($business_id, 'device');
         $repair_settings = $this->repairUtil->getRepairSettings($business_id);
         $types = Contact::getContactTypes();

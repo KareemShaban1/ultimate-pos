@@ -492,7 +492,7 @@ class RepairController extends Controller
         $repair_statuses = RepairStatus::getRepairSatuses($business_id);
         $warranties = Warranty::forDropdown($business_id);
 
-        $brands = Brand::forDropdown($business_id);
+        $brands = Brands::forDropdown($business_id);
 
         $service_staff = [];
         if ($this->productUtil->isModuleEnabled('service_staff')) {
@@ -798,7 +798,7 @@ class RepairController extends Controller
 
         $warranties = Warranty::forDropdown($business_id);
 
-        $brands = Brand::forDropdown($business_id);
+        $brands = Brands::forDropdown($business_id);
 
         $waiters = [];
         if ($this->productUtil->isModuleEnabled('service_staff')) {

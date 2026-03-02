@@ -188,7 +188,7 @@ class DataController extends Controller
 
             $repair_statuses = RepairStatus::getRepairSatuses($business_id);
             $device_models = DeviceModel::forDropdown($business_id);
-            $brands = Brand::forDropdown($business_id);
+            $brands = Brands::forDropdown($business_id);
             $devices = Category::forDropdown($business_id, 'device');
 
             $warranties = [];

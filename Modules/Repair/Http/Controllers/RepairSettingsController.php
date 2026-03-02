@@ -67,7 +67,7 @@ class RepairSettingsController extends Controller
         $barcode_types = $this->moduleUtil->barcode_types();
         $repair_statuses = RepairStatus::getRepairSatuses($business_id);
 
-        $brands = Brand::forDropdown($business_id);
+        $brands = Brands::forDropdown($business_id);
         $devices = Category::forDropdown($business_id, 'device');
         $module_category_data = $this->moduleUtil->getTaxonomyData('device');
 
